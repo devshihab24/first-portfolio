@@ -136,15 +136,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     padding: 20px 0;
 }
 .work-card{
     /* border: 2px solid blue; */
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.742);
-    padding: 20px 10px;
+    padding: 30px;
     border-radius: 8px;
-    height: inherit;
+    max-height: 250px;
 }
 .work-card h5{
     font-size: 24px;
@@ -152,4 +152,46 @@ a {
 .work-card img{
     width: 40px;
     border-radius: 6px;
+}
+.summery{
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.qualifications-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.education{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.experience{
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.education div, .experience div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.education h4, .experience h4{
+    font-size: 22px;
+}
+.education h5, .experience h5{
+    font-size: 18px;
+    color: rgb(71, 65, 65);
+}
+.education p, .experience p{
+    color: rgba(117, 117, 117, 1);
 }
